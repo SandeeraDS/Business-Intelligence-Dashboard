@@ -8,8 +8,11 @@ import { SectionSalesComponent } from "./sections/section-sales/section-sales.co
 
 import { SectionHealthComponent } from "./sections/section-health/section-health.component";
 import { SectionOrdersComponent } from "./sections/section-orders/section-orders.component";
-import { RouterModule } from "@angular/router";
 import { AppRouting } from "./app-routing.module";
+
+import { LineChartComponent } from "./charts/line-chart/line-chart.component";
+import { PieChartComponent } from "./charts/pie-chart/pie-chart.component";
+import { BarChartComponent } from "./charts/bar-chart/bar-chart.component";
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { AppRouting } from "./app-routing.module";
     SidebarComponent,
     SectionSalesComponent,
     SectionOrdersComponent,
-    SectionHealthComponent
+    SectionHealthComponent,
+    LineChartComponent,
+    PieChartComponent,
+    BarChartComponent
   ],
   imports: [BrowserModule, AppRouting],
   providers: [],

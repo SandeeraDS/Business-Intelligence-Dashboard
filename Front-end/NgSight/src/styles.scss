@@ -25,6 +25,28 @@ a {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 5px 6px rgba(0, 0, 0, 0.3);
 }
 
+.card-theme {
+  background-color: #191f26;
+  border: none;
+  border-radius: 2px;
+}
+
+.card-heading-theme {
+  background-color: #eee;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 12px;
+}
+
+.card-body-theme {
+  background-color: #494f56;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
 .section-container {
   padding: 30px;
 }
