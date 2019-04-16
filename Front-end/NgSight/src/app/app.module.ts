@@ -13,6 +13,7 @@ import { AppRouting } from "./app-routing.module";
 import { LineChartComponent } from "./charts/line-chart/line-chart.component";
 import { PieChartComponent } from "./charts/pie-chart/pie-chart.component";
 import { BarChartComponent } from "./charts/bar-chart/bar-chart.component";
+import { ChartsModule } from "ng2-charts";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { BarChartComponent } from "./charts/bar-chart/bar-chart.component";
     PieChartComponent,
     BarChartComponent
   ],
-  imports: [BrowserModule, AppRouting],
+  imports: [BrowserModule, AppRouting, ChartsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
