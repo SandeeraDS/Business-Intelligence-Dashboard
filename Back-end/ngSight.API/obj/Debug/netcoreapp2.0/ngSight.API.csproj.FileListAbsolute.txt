@@ -8,3 +8,4 @@ C:\Users\GL 62M 7RDX\Desktop\Projects\Business Intelligence Dashboard\Back-end\n
 C:\Users\GL 62M 7RDX\Desktop\Projects\Business Intelligence Dashboard\Back-end\ngSight.API\obj\Debug\netcoreapp2.0\ngSight.API.AssemblyInfo.cs
 C:\Users\GL 62M 7RDX\Desktop\Projects\Business Intelligence Dashboard\Back-end\ngSight.API\obj\Debug\netcoreapp2.0\ngSight.API.dll
 C:\Users\GL 62M 7RDX\Desktop\Projects\Business Intelligence Dashboard\Back-end\ngSight.API\obj\Debug\netcoreapp2.0\ngSight.API.pdb
+C:\Users\GL 62M 7RDX\Desktop\Projects\Business Intelligence Dashboard\Back-end\ngSight.API\obj\Debug\netcoreapp2.0\ngSight.API.csprojAssemblyReference.cache
