@@ -17,6 +17,7 @@ namespace ngSight.API
             _ctx = ctx;
         }
 
+        //startup class call this method
         public void SeedData(int nCustomers,int nOrders)
         {
 
@@ -117,6 +118,7 @@ namespace ngSight.API
             }
         }
 
+        //create tuples randomly 
         private List<Order> BuildOrderList(int nOrders)
         {
            var orders = new List<Order>();
