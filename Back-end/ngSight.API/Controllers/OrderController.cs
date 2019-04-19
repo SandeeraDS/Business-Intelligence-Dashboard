@@ -25,7 +25,20 @@ namespace ngSight.API.Controllers
         public IActionResult Get(int pageIndex, int pageSize)
         {
             var data = _ctx.Orders.Include(c => c.Customer).OrderByDescending(o => o.Placed);
-            return Ok();
+
+            var page = new PaginatedResponse<Order>(data, pageIndex, pageSize);
+
+            var totalCount = data.Count();
+            var totalPages = Math.Ceiling((double) totalCount / pageSize);
+
+            //creating new object
+            var response = new
+            {
+                Page = page,
+                TotalPages = totalPages
+            };
+
+            return Ok(response);
         }
 
         //public IActionResult Get()
